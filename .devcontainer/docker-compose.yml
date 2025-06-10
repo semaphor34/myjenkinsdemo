@@ -1,0 +1,24 @@
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/java:21
+    env_file:
+      - ./.env
+    volumes:
+      - ..:/workspaces:cached
+    network_mode: service:jenkins
+    command: sleep infinity
+
+  jenkins:
+    build:
+      context: ./Docker
+    env_file:
+      - ./.env
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    container_name: jenkins
+    
+volumes:
+  jenkins_home:
