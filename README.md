@@ -38,7 +38,7 @@ Traditional approaches can lead to **boilerplate code, poor separation of concer
 ## 🧩 Project Structure
 
 ### Architectur
-<img src="docs/images/arch1.svg" alt="Logo" width="500" />
+<img src="reflection/docs/images/arch1.svg" alt="Logo" width="500" />
 
 
 | Package                  | Purpose                                               |
