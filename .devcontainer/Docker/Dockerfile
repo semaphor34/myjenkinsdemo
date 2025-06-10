@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:latest
+FROM jenkins/jenkins:lts-21
 
 RUN jenkins-plugin-cli --plugins \
     git:latest \
