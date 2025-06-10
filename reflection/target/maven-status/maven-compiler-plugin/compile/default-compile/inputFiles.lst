@@ -1,0 +1,9 @@
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/annotation/Argument.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/annotation/ArgumentFallback.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/annotation/Mapper.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/core/AnnotatedCommandExecutor.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/core/MethodInvoker.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/core/MethodProvider.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/dummy/CommandSender.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/dummy/MethodCanvas.java
+/srv/java/repostmp/reflection/src/main/java/org/semaphor34/dummy/MethodExtension.java
